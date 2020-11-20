@@ -32,8 +32,6 @@ import re
 import os # Prints working directory
 import time # Tracks time a script takes to run
 import pandas as pd # For numerical analysis in tabular forms
-import matplotlib.pyplot as plt # For plots
-import numpy as np # For arrays
 
 # Set working directory
 dtype = object

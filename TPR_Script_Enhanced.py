@@ -29,15 +29,8 @@
 #####################################################
 
 import re
-import os # Prints working directory
 import time # Tracks time a script takes to run
 import pandas as pd # For numerical analysis in tabular forms
-
-# Set working directory
-dtype = object
-path = "C:/Users/jrod94/Box/June Files/Work Folder/Python"
-os.chdir(path)
-# print os.getcwd()
 
 StartTime = time.time()
 
@@ -47,7 +40,7 @@ StartTime = time.time()
 ###                ###
 ######################
 
-COPA_MTD = pd.read_csv('TPR_COPA_2020.11.16.csv') # MTD COPA file
+# COPA_MTD = pd.read_csv('TPR_COPA_2020.11.16.csv') # MTD COPA file
 Month = ['202011'] # Set the calendar month you're performing the TPR calculation for
 Period = ['06'] # Set the FY period you're performing the TPR calculation for
 
